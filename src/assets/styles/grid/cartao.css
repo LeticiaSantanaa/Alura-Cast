@@ -1,0 +1,31 @@
+.secao-horizontal .cartao{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.secao-horizontal .cartao__imagem{
+    /* grid-column-start: 1;/*onde inicia a coluna -estudar GRID LINE/
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4; */
+    grid-area: 1/1/4/2; /* é a mesma coisa do de cima mas com uma sintaxe melhor (linha start,coluna start,linha end,coluna end*/
+}
+/*
+ Exemplo de como ficou separado o container na pagina
+
+    1      2                 3       4
+  1 -|------|-----------------|-------|
+     |      |                 |       |
+  2 -|------|-----------------|-------|
+     |      |                 |       |
+  3 -|------|-----------------|-------|
+  4 -|------|-----------------|-------|
+
+*/
+.secao-horizontal .cartao__botao{
+    grid-column: 3/4; /*o 1° valor (3) é refente ao start e o segundo (4)valor é referente ao end
+                        ou seja, comeca na coluna 3 e termina na coluna 4*/
+    grid-row: 1/4; /*o primeiro valor comeca na linha 1 e termina na linha 4*/
+
+
+}

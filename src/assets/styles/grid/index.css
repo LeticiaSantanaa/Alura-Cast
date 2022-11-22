@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "aside header" /*primeira linha/ aside 1° coluna, header 2° coluna*/
+    "aside main";/*segunda linha/aside 1° coluna, main 2° coluna*/
+    grid-template-columns: auto 1fr; /**fiz a primeira coluna vai ter exatamente o tamanho do aside, e na segunda vai ter 1 fração do espaco (total do aside)*/
+}
+.cabecalho{
+    grid-area: header;
+}
+.menu-lateral{
+    grid-area: aside;
+}
+.principal{
+    grid-area: main;
+}
