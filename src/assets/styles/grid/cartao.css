@@ -1,6 +1,8 @@
 .secao-horizontal .cartao{
     display: grid;
     grid-template-columns: auto 1fr auto;
+    column-gap: 1.25rem; /**utilizo para criar espaçamento entre colunas ou linhas*/
+
 }
 
 .secao-horizontal .cartao__imagem{

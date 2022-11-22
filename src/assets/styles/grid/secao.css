@@ -1,0 +1,14 @@
+.secao{
+    display: grid; /*coloquei nessa classe pra nao ter q ficar repetindo isso em cada classe*/
+}
+.secao-horizontal {
+    grid-template-rows: 120px auto;
+}
+.secao-vertical{
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 2fr;
+}
+
+.secao-vertical .secao__cartoes{
+    grid-column: 1/3;
+}
