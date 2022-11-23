@@ -1,5 +1,6 @@
 .secao{
     display: grid; /*coloquei nessa classe pra nao ter q ficar repetindo isso em cada classe*/
+    align-items: center;
 }
 .secao-horizontal {
     grid-template-rows: 120px auto;

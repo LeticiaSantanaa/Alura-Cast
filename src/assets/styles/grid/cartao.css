@@ -29,5 +29,8 @@
                         ou seja, comeca na coluna 3 e termina na coluna 4*/
     grid-row: 1/4; /*o primeiro valor comeca na linha 1 e termina na linha 4*/
 
+}
+.secao-horizontal .cartao__titulo{
+    align-self: end;
 
 }
